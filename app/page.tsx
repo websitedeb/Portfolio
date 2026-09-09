@@ -46,6 +46,7 @@ import Article from "@/components/article";
 import fonts from "@/hooks/fontManager";
 import { ProjectSection } from "@/components/projectSection";
 import Footer from "@/components/footer";
+import { DotPattern } from "@/components/dotPattern";
 
 interface _Data {
   icon: React.ReactNode;
@@ -117,7 +118,7 @@ const data: Array<Data> = [
     "vscode,replit,dreamweaver,pycharm,git,github,postman,eclipse,docker,npm,pypi,canva"
   ),
   createData(<FaCloud color="white" size={24} />,
-    "Infrastructure",
+    "Cloud",
     "cloudflare,workers,vercel,render"
   ),
   createData(<FaFlask color="white" size={24} />,
@@ -140,8 +141,13 @@ export default function Page() {
         />
       </div>
 
-      <div className="fixed inset-0 -z-10 overflow-hidden">
-        <ThreeDBackground />
+      <div className="fixed inset-0 -z-10 isolate overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 z-0">
+          <DotPattern />
+        </div>
+        <div className="pointer-events-none absolute inset-0 z-10">
+          <ThreeDBackground />
+        </div>
       </div>
 
       <div className="relative z-10 w-full overflow-x-hidden">
