@@ -70,7 +70,7 @@ function createData(
 
 const data: Array<Data> = [
   createData(<FaCode color="white" size={24} />,
-    "Languages",
+    "Langs",
     "html,css,js,ts,py,java,luau,rust,md"
   ),
   createData(<FaPaintBrush color="white" size={24} />,
@@ -98,11 +98,11 @@ const data: Array<Data> = [
     "selenium"
   ),
   createData(<FaRobot color="white" size={24} />,
-    "Bot Development",
+    "Bot Dev",
     "discordjs"
   ),
   createData(<FaGamepad color="white" size={24} />,
-    "Game Development",
+    "Game Dev",
     "robloxstudio,threejs"
   ),
   createData(<FaChartBar color="white" size={24} />,
@@ -110,8 +110,12 @@ const data: Array<Data> = [
     "pandas,numpy,matplotlib,seaborn"
   ),
   createData(<FaBrain color="white" size={24} />,
-    "Machine Learning",
+    "ML",
     "pydantic,tensorflow"
+  ),
+  createData(<FaFlask color="white" size={24} />,
+    "AI",
+    "chatgpt,gemini"
   ),
   createData(<FaTools color="white" size={24} />,
     "Tools",
@@ -120,10 +124,6 @@ const data: Array<Data> = [
   createData(<FaCloud color="white" size={24} />,
     "Cloud",
     "cloudflare,workers,vercel,render"
-  ),
-  createData(<FaFlask color="white" size={24} />,
-    "AI",
-    "chatgpt,gemini"
   ),
 ];
 
@@ -596,7 +596,7 @@ export default function Page() {
                 <div className="h-4 sm:h-6" />
 
                 <ProjectSection
-                  Title="Red Alert Robotic's 2025-2028 Robot Code"
+                  Title="Red Alert Robotic's Robot Code"
                   Paragraphcontent="I worked on the code for Red Alert Robotic's FRC robots. The code is written in Java and uses the WPILib library."
                   Link="https://github.com/RAR1741"
                   Image={

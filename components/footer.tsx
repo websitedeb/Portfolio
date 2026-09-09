@@ -65,7 +65,7 @@ export default function Footer() {
                                 "
                             />
 
-                            <h2 className="text-2xl font-bold text-cyan-400">
+                            <h2 className="text-2xl font-bold text-cyan-400 min-w-[340px]">
                                 <NameChanger />
                             </h2>
                         </div>
@@ -135,7 +135,7 @@ export default function Footer() {
                                 fontFamily: fonts.style.inter.fontFamily,
                             }}
                         >
-                            Current Song on Repeat
+                            Current Favorite Song
                         </h3>
 
                         <a

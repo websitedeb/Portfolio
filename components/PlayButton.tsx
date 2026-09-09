@@ -15,7 +15,7 @@ export default function PlayButton() {
           className="background self-center flex p-7 gap-x-1.5 text-xl cursor-pointer text-white"
           onClick={() => setClicked(true)}
         >
-          <Headphones /> Site Contains Sound and Flashing Lights, Click Here to Enter <Lightbulb />
+          <Headphones /> Sounds and Lights! <Lightbulb />
         </Button>
     </div>
   );
