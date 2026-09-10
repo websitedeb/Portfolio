@@ -610,8 +610,53 @@ export default function Page() {
                     <img
                       key={i + 1}
                       src={`/projects/1741/image${i + 1}.png`}
-                      alt={`Red Alert Robotic's 2025-2028 Robot Code ${2024 + i + 1
-                        }`}
+                      alt={`Red Alert Robotic's 2025-2028 Robot Code ${2024 + i + 1}`}
+                      className="h-full w-full object-cover"
+                    />
+                  ))}
+                />
+
+                <div className="h-4 sm:h-6" />
+
+                <ProjectSection
+                  Title="Abyss of Pain"
+                  Paragraphcontent="A reverse tower of hell game with fall damage on Roblox, I contributed the grenades (smoke, flashbang, and regular) too the game."
+                  Link="https://www.roblox.com/games/97262361158655/Combat-Tower-Obby"
+                  Image={
+                    <img
+                      src="/projects/poa/icon.png"
+                      alt="Red Alert Robotic's 2025-2028 Robot Code"
+                      className="h-full w-full object-cover"
+                    />
+                  }
+                  Images={Array.from({ length: 1 }, (_, i) => (
+                    <img
+                      key={i + 1}
+                      src={`/projects/poa/image${i + 1}.png`}
+                      alt={`Abyss of Pain ${i + 1}`}
+                      className="h-full w-full object-cover"
+                    />
+                  ))}
+                />
+
+                <div className="h-4 sm:h-6" />
+
+                <ProjectSection
+                  Title="DaBoys AI"
+                  Paragraphcontent="A discord AI Chatbot I made for my discord server (message me for invite), it can remember pass conversations and knows current world knowledge."
+                  Link="https://discord.gg/wQ7WRGHf3D"
+                  Image={
+                    <img
+                      src="/projects/daboys/icon.png"
+                      alt="Red Alert Robotic's 2025-2028 Robot Code"
+                      className="h-full w-full object-cover"
+                    />
+                  }
+                  Images={Array.from({ length: 1 }, (_, i) => (
+                    <img
+                      key={i + 1}
+                      src={`/projects/daboys/image${i + 1}.png`}
+                      alt={`Da Boys AI ${i + 1}`}
                       className="h-full w-full object-cover"
                     />
                   ))}

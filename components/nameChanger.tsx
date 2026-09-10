@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaDiscord, FaGithub, FaRegIdBadge, FaNpm, FaTiktok } from "react-icons/fa";
-import { SiRoblox, SiGmail } from "react-icons/si";
+import { SiRoblox } from "react-icons/si";
 import { playstore } from "../hooks/store";
 
 const items = [
@@ -14,11 +14,6 @@ const items = [
     text: "Websitedeb",
     color: "text-gray-400",
     icon: <FaGithub className="text-gray-400" />,
-  },
-  {
-    text: "Sarthak.ghoshal22",
-    color: "text-green-500",
-    icon: <SiGmail className="text-green-500" />,
   },
   {
     text: "Reactive",
@@ -76,10 +71,6 @@ export default function NameChanger() {
 
               () => setCurrent(5),
               items[5].text,
-              2000,
-
-              () => setCurrent(6),
-              items[6].text,
               2000,
             ]}
             speed={50}

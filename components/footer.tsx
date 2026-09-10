@@ -84,7 +84,7 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    <div className="ml-20">
+                    <div className="">
                         <h3
                             className="
                                 mb-5
