@@ -573,6 +573,29 @@ export default function Page() {
                 <div className="h-4 sm:h-6" />
 
                 <ProjectSection
+                  Title="Lilliepy"
+                  Paragraphcontent="A Web Framework written in python for reactpy, includes a directory router."
+                  Link="https://pypi.org/project/lilliepy/"
+                  Image={
+                    <img
+                      src="/projects/lillie/icon.png"
+                      alt="Red Alert Robotic's 2025-2028 Robot Code"
+                      className="h-full w-full object-cover"
+                    />
+                  }
+                  Images={Array.from({ length: 2 }, (_, i) => (
+                    <img
+                      key={i + 1}
+                      src={`/projects/lillie/image${i + 1}.png`}
+                      alt={`Da Boys AI ${i + 1}`}
+                      className="h-full w-full object-cover"
+                    />
+                  ))}
+                />
+
+                <div className="h-4 sm:h-6" />
+
+                <ProjectSection
                   Title="Advisha Services"
                   Paragraphcontent="A tax and accounting services website built for Advisha Services."
                   Link="https://advisha-services.pages.dev"
