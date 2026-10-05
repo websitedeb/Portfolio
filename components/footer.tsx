@@ -179,7 +179,7 @@ export default function Footer() {
 
                             <div>
                                 <p className="font-medium text-white">
-                                    DECO*27 - The Vampire feat. Hatsune Miku
+                                    Admiring You
                                 </p>
 
                                 <p className="text-sm text-gray-500">
