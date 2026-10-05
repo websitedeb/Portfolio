@@ -12,7 +12,7 @@ import fonts from "@/hooks/fontManager";
 import NameChanger from "./nameChanger";
 
 export default function Footer() {
-    const currentSongUrl = "https://www.youtube.com/watch?v=e1xCOsgWG0M";
+    const currentSongUrl = "https://www.youtube.com/watch?v=DrHL4TzX6t8&pp=ygUMYWRtaXJpbmcgeW91";
 
     return (
         <footer
