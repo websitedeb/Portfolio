@@ -648,7 +648,7 @@ export default function Page() {
                   Image={
                     <img
                       src="/projects/poa/icon.png"
-                      alt="Red Alert Robotic's 2025-2028 Robot Code"
+                      alt="Abyss of Pain"
                       className="h-full w-full object-cover"
                     />
                   }
@@ -667,11 +667,11 @@ export default function Page() {
                 <ProjectSection
                   Title="DaBoys AI"
                   Paragraphcontent="A discord AI Chatbot I made for my discord server (message me for invite), it can remember pass conversations and knows current world knowledge."
-                  Link="https://discord.gg/wQ7WRGHf3D"
+                  Link="https://discord.gg/aJPbwqg4Mw"
                   Image={
                     <img
                       src="/projects/daboys/icon.png"
-                      alt="Red Alert Robotic's 2025-2028 Robot Code"
+                      alt="DaBoys AI"
                       className="h-full w-full object-cover"
                     />
                   }
@@ -679,7 +679,7 @@ export default function Page() {
                     <img
                       key={i + 1}
                       src={`/projects/daboys/image${i + 1}.png`}
-                      alt={`Da Boys AI ${i + 1}`}
+                      alt={`DaBoys AI ${i + 1}`}
                       className="h-full w-full object-cover"
                     />
                   ))}
