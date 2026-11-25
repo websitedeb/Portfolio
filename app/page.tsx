@@ -111,11 +111,11 @@ const data: Array<Data> = [
   ),
   createData(<FaBrain color="white" size={24} />,
     "ML",
-    "pydantic,tensorflow"
+    "scikitlearn,tensorflow"
   ),
   createData(<FaFlask color="white" size={24} />,
     "AI",
-    "chatgpt,gemini"
+    "pydantic,chatgpt,gemini"
   ),
   createData(<FaTools color="white" size={24} />,
     "Tools",
